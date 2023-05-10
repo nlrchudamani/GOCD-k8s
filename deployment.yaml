@@ -12,8 +12,8 @@ spec:
         app: django-app
     spec:
       containers:
-      - name: nlrcmani/gocd-django:latest
-        image: nlrcmani
+      - name: nlrcmani
+        image: nlrcmani/gocd-django:latest
         resources:
           limits:
             memory: "128Mi"
