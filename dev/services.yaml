@@ -5,6 +5,7 @@ metadata:
 spec:
   selector:
     app: django-app
+  type: NodePort
   ports:
   - port: 8000
-    targetPort: 30160
+    nodePort: 30160
