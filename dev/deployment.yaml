@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: nlrcmani
-        image: nlrcmani/gocd-django:latest
+        image: nlrcmani/gocd-django:c9191cfe2bb31b35d606b2d9bab9a5622e272704
         resources:
           limits:
             memory: "128Mi"
